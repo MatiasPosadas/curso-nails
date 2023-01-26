@@ -13,3 +13,13 @@ document.querySelector('.go-top-container').addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
+
+// Boton Comienza Ahora
+
+document.querySelector('#comienzaahora').addEventListener('click', () => {
+    window.scrollTo({
+        top: 630,
+        behavior: 'smooth'
+    });
+});

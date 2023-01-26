@@ -104,7 +104,7 @@ body {
 }
 
 .hero__title {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
 }
 
@@ -124,6 +124,7 @@ body {
     text-transform: uppercase;
     /* color: rgb(22, 11, 15); */
     text-decoration: none;
+    font-weight: bold;
     padding: 13px 30px;
     border-radius: 32px;
 }
@@ -151,11 +152,11 @@ body {
 }
 
 .about__main {
-    padding-top: 80px;
+    padding-top: 60px;
     display: grid;
     width: 90%;
     margin: 0 auto;
-    gap: 1em;
+    gap: 1.5rem;
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
 }
@@ -206,6 +207,8 @@ body {
     /* height: 20%; */
     display: flex;
     justify-content: flex-end;
+    border-radius: 5rem;
+
 }
 
 /* - - - - P R I C E - - - - - */
@@ -478,7 +481,7 @@ body {
 /*- - - - - F O O T E R - - - - - */
 
 .footer {
-    background-color: rgb(150, 76, 150);
+    background-color: palevioletred;
 }
 
 .footer__title {
@@ -537,7 +540,7 @@ body {
     display: inline-block;
     height: 50px;
     padding: 0 20px;
-    background-color: palevioletred;
+    background-color: rgb(150, 76, 150);
     border: none;
     font-size: 1rem;
     color: #fff;
