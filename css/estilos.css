@@ -127,6 +127,7 @@ body {
     font-weight: bold;
     padding: 13px 30px;
     border-radius: 32px;
+    cursor: pointer;
 }
 
 
@@ -278,10 +279,13 @@ body {
     text-decoration: none;
     background-color: var(--bg-cta);
     font-weight: 600;
+    text-transform: uppercase;
     color: var(--color-cta);
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
 }
-
+.price__signo {
+    font-size: 1.5rem;
+}
 /*- - - - - T E S T I M O N Y - - - - -*/
 
 .testimony {
@@ -294,6 +298,8 @@ body {
     gap: 1em;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+
 }
 
 .testimony__body {
@@ -319,6 +325,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     margin: 0 auto;
+    /* display: none; */
 }
 
 .testimony__picture {
@@ -342,6 +349,18 @@ body {
     cursor: pointer;
 }
 
+.subtitle--testimony {
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+    margin-left: calc(50% - 15rem);
+}
+.cta--testimony {
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    margin-left: calc(50% - 10rem);
+}
 
 /*- - - Q U E S T I O N S - - - */
 
@@ -413,6 +432,9 @@ body {
     margin: 0 auto;
     margin-bottom: 30px;
 }
+
+
+
 
 /* - - - B O T O N D E S U B I R - - -*/
 
@@ -515,37 +537,6 @@ body {
     margin: 0;
     margin-right: 20px;
     flex-wrap: wrap;
-}
-
-.footer__inputs {
-    margin-top: 10px;
-    display: flex;
-    overflow: hidden;
-}
-
-.footer__input {
-    background-color: #fff;
-    height: 50px;
-    display: block;
-    padding-left: 10px;
-    border-radius: 6px;
-    font-size: 1rem;
-    outline: none;
-    border: none;
-    margin-right: 16px;
-}
-
-.footer__submit {
-    margin-left: auto;
-    display: inline-block;
-    height: 50px;
-    padding: 0 20px;
-    background-color: rgb(150, 76, 150);
-    border: none;
-    font-size: 1rem;
-    color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
 }
 
 .footer__copy {

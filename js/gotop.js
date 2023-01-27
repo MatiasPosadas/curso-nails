@@ -23,3 +23,12 @@ document.querySelector('#comienzaahora').addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
+// Boton Inscribirme
+
+document.querySelector('#inscribirme').addEventListener('click', () => {
+    window.scrollTo({
+        top: 800,
+        behavior: 'smooth'
+    });
+});
