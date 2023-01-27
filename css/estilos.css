@@ -5,6 +5,11 @@
     --color-title: #001A49;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -130,6 +135,10 @@ body {
     cursor: pointer;
 }
 
+main {
+    margin: 0 auto;
+    width: 100%;
+}
 
 /*- - - - - A B O U T - - - - -*/
 
@@ -713,5 +722,10 @@ body {
     .footer__submit {
         margin: 0;
         width: 100%;
+    }
+    html{
+        background-color: red;
+        width: 100%;
+        margin: 0 auto;
     }
 }
