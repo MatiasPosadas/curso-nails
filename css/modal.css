@@ -504,6 +504,21 @@
     .container-modal {
         height: 100%;
     }
+    .boton-modal--semipermanente label {
+        font-size: 2rem;
+    }
+    .boton-modal--acrilicas label {
+        font-size: 2rem;
+    }
+    .boton-modal--pestanas label {
+        font-size: 2rem;
+    }
+    .boton-modal--polygel label {
+        font-size: 2rem;
+    }
+    .boton-modal label {
+        font-size: 2rem;
+    }
 
 }
 /*:::Fin Ventana Modal:::*/
