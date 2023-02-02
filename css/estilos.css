@@ -243,18 +243,21 @@ main {
 }
 
 .price__element {
-    background-color: #e5e5f7;
+    background-color: rgb(255, 157, 190);
     text-align: center;
     border-radius: 10px;
     width: 330px;
     padding: 40px;
-    --color-plan: #696871;
-    --color-price: #1d293f;
+    --color-plan: #000000;
+    --color-price: #fff;
     --bg-cta: #fff;
-    --color-cta: palevioletred;
-    --color-items: #697871;
+    --color-cta: rgb(0, 0, 0);
+    --color-items: #ffffff;
+    font-weight: bold;
 }
-
+.price__name {
+    text-transform: uppercase;
+}
 .price__element--best {
     width: 370px;
     padding: 60px 40px;
@@ -304,7 +307,7 @@ main {
 /*- - - - - T E S T I M O N Y - - - - -*/
 
 .testimony {
-    background-color: #e5e5f7;
+    /* background-color: #02027a; */
 }
 
 .testimony__container {
@@ -574,7 +577,7 @@ main {
     width: 30px;
 }
 footer {
-    min-width: 100vh;
+    min-width: 100%;
 }
 
 .footer__container {
