@@ -57,7 +57,7 @@
     width: 100%;
     margin-top: 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .content-modal .btn-cerrar label{
     padding: 7px 10px;
@@ -66,6 +66,7 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 300ms ease;
+    font-size: 1.5rem;
 }
 .content-modal .btn-cerrar label:hover{
     background-color:rgb(161, 84, 110);
@@ -153,7 +154,7 @@
     width: 100%;
     margin-top: 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .content-modal--polygel .btn-cerrar--polygel label{
     padding: 7px 10px;
@@ -162,6 +163,7 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 300ms ease;
+    font-size: 1.5rem;
 }
 .content-modal--polygel .btn-cerrar--polygel label:hover{
     background-color:rgb(161, 84, 110);
@@ -256,7 +258,7 @@
     width: 100%;
     margin-top: 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .content-modal--acrilicas .btn-cerrar--acrilicas label{
     padding: 7px 10px;
@@ -265,6 +267,7 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 300ms ease;
+    font-size: 1.5rem;
 }
 .content-modal--acrilicas .btn-cerrar--acrilicas label:hover{
     background-color:rgb(161, 84, 110);
@@ -357,7 +360,7 @@
     width: 100%;
     margin-top: 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .content-modal--pestanas .btn-cerrar--pestanas label{
     padding: 7px 10px;
@@ -366,6 +369,7 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 300ms ease;
+    font-size: 1.5rem;
 }
 .content-modal--pestanas .btn-cerrar--pestanas label:hover{
     background-color:rgb(161, 84, 110);
@@ -456,7 +460,7 @@
     width: 100%;
     margin-top: 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .content-modal--semipermanente .btn-cerrar--semipermanente label{
     padding: 7px 10px;
@@ -465,6 +469,7 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 300ms ease;
+    font-size: 1.5rem;
 }
 .content-modal--semipermanente .btn-cerrar--semipermanente label:hover{
     background-color:rgb(161, 84, 110);

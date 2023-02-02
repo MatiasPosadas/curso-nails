@@ -474,6 +474,7 @@ main {
     width: 0rem;
     height: 0rem;
     background: palevioletred;
+    border: 1px solid #fff;
     border-radius: 50%;
     cursor: pointer;
     transition: .2s;
@@ -699,6 +700,9 @@ main {
     }
     .hero__paragraph {
         font-size: 1rem;
+    }
+    .hero::before {
+        background-position: center;
     }
     .subtitle {
         font-size: 1.8rem;
