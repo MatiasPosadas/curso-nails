@@ -10,6 +10,8 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 300ms ease;
+    font-size: 1.4rem;
+
 }
 .boton-modal label:hover{
     background-color: rgb(161, 84, 110);
@@ -98,6 +100,8 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 300ms ease;
+    font-size: 1.4rem;
+
 }
 .boton-modal--polygel label:hover{
     background-color: rgb(161, 84, 110);
@@ -198,6 +202,8 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 300ms ease;
+    font-size: 1.4rem;
+
 }
 .boton-modal--acrilicas label:hover{
     background-color: rgb(161, 84, 110);
@@ -298,6 +304,8 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 300ms ease;
+    font-size: 1.4rem;
+
 }
 .boton-modal--pestanas label:hover{
     background-color: rgb(161, 84, 110);
@@ -393,6 +401,8 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 300ms ease;
+    font-size: 1.4rem;
+    justify-content: left;
 }
 .boton-modal--semipermanente label:hover{
     background-color: rgb(161, 84, 110);
