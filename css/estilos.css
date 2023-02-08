@@ -82,6 +82,7 @@ main {
 .nav__links {
     color: #fff;
     text-decoration: none;
+    font-size: 1.8rem;
 }
 
 .nav__menu {
@@ -463,7 +464,7 @@ main {
 
 .go-top-container {
     position: fixed;
-    bottom: -3rem;
+    bottom: 1rem;
     right: -3rem;
     width: 6.6rem;
     height: 6.6rem;
@@ -544,7 +545,7 @@ main {
 
 .footer__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-bottom: 1px solid #fff;
     padding-bottom: 60px;
@@ -614,7 +615,7 @@ main {
     }
     .nav__link--menu {
         position: fixed;
-        background-color: #000;
+        background-color: palevioletred;
         top: 0;
         left: 0;
         height: 100%;
@@ -637,8 +638,18 @@ main {
         position: absolute;
         top: 30px;
         right: 30px;
-        width: 30px;
+        width: 4rem;
         cursor: pointer;
+    }
+    .nav__img {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 1rem;
+    }
+    .nav__title {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 2rem;
     }
     .hero__title {
         font-size: 2.5rem;
@@ -688,8 +699,8 @@ main {
         justify-content: center;
     }
     .show .go-top-button {
-        width: 6rem;
-        height: 6rem;
+        width: 5rem;
+        height: 5rem;
     }
 
 }
@@ -702,7 +713,7 @@ main {
         font-size: 1rem;
     }
     .hero::before {
-        background-position: center;
+        background-position: center center;
     }
     .subtitle {
         font-size: 1.8rem;
