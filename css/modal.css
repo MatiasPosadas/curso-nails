@@ -27,7 +27,7 @@
     height: 100vh;
     position: fixed;
     top: 0; left: 0;
-    background-color: rgba(144, 148, 150, 0.8);
+    background-color: rgba(216, 112, 147, 0.829);
     display: none;
     justify-content: center;
     align-items: center;
@@ -124,7 +124,7 @@
     height: 100vh;
     position: fixed;
     top: 0; left: 0;
-    background-color: rgba(144, 148, 150, 0.8);
+    background-color: rgba(216, 112, 147, 0.829);
     display: none;
     justify-content: center;
     align-items: center;
@@ -227,7 +227,7 @@
     height: 100vh;
     position: fixed;
     top: 0; left: 0;
-    background-color: rgba(144, 148, 150, 0.8);
+    background-color: rgba(216, 112, 147, 0.829);
     display: none;
     justify-content: center;
     align-items: center;
@@ -332,7 +332,7 @@
     height: 100vh;
     position: fixed;
     top: 0; left: 0;
-    background-color: rgba(144, 148, 150, 0.8);
+    background-color: rgba(216, 112, 147, 0.829);
     display: none;
     justify-content: center;
     align-items: center;
@@ -344,6 +344,8 @@
 .content-modal--pestanas{
     width: 100%;
     max-width: 400px;
+    height: 90%;
+    overflow: scroll;
     padding: 20px;
     background-color: #fff;
     border-radius: 4px;
@@ -430,7 +432,7 @@
     height: 100vh;
     position: fixed;
     top: 0; left: 0;
-    background-color: rgba(144, 148, 150, 0.8);
+    background-color: rgba(216, 112, 147, 0.829);
     display: none;
     justify-content: center;
     align-items: center;
