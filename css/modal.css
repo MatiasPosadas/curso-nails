@@ -344,7 +344,7 @@
 .content-modal--pestanas{
     width: 100%;
     max-width: 400px;
-    height: 90%;
+    max-height: 90%;
     overflow: scroll;
     padding: 20px;
     background-color: #fff;
