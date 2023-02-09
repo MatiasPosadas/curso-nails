@@ -741,6 +741,20 @@
     .container-modal {
         height: 100%;
     }
+    .content-modal--volumen{
+        width: 90%;
+        text-align: start;
+    }
+    .container-modal--volumen {
+        height: 100%;
+    }
+    .content-modal--lifting{
+        width: 90%;
+        text-align: start;
+    }
+    .container-modal--lif.content-modal--lifting {
+        height: 100%;
+    }
     .boton-modal--semipermanente label {
         font-size: 2rem;
     }
@@ -756,7 +770,12 @@
     .boton-modal label {
         font-size: 2rem;
     }
-
+    .boton-modal--volumen label {
+        font-size: 2rem;
+    }
+    .boton-modal--lifting label {
+        font-size: 2rem;
+    }
 }
 /*:::Fin Ventana Modal:::*/
 
