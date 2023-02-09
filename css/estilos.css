@@ -544,7 +544,7 @@ main {
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #fff;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
 }
 
 .nav--footer {
@@ -585,6 +585,7 @@ main {
     flex-wrap: wrap;
     width: 100%;
     background-color: palevioletred;
+    padding: 2rem;
 }
 .nav--footer {
     width: 90%;
