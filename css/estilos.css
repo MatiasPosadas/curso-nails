@@ -82,7 +82,7 @@ main {
 .nav__links {
     color: #fff;
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .nav__menu {
@@ -206,6 +206,7 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     align-items: center;
+    padding: 4rem;
     /* justify-content: center; */
 }
 
@@ -256,10 +257,6 @@ main {
     --color-items: #ffffff;
     font-weight: bold;
 }
-.price__name {
-    text-transform: uppercase;
-    font-size: 1.3rem;
-}
 .price__element--best {
     width: 370px;
     padding: 60px 40px;
@@ -270,7 +267,6 @@ main {
     --color-cta: palevioletred;
     --color-items: #FFF;
 }
-
 .price__name {
     color: var(--color-plan);
     margin-bottom: 15px;
@@ -280,6 +276,7 @@ main {
     background-color: rgba(255, 255, 255, 0.507);
     padding: 0.6rem 1rem;
     border-radius: 0.5rem;
+    font-weight: bold;
 }
 .plan__price {
     font-size: 2.5rem;
