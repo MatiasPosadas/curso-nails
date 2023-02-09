@@ -483,6 +483,226 @@
     top:0; left: 0;
     z-index: -1;
 }
+
+/*- - - - - V E N  T A N A   M O D A L  P E S T A Ñ A  S  VOLUMEN - - - -  -*/
+
+
+
+#btn-modal--volumen{
+    display: none;
+}
+.container-modal--volumen{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(216, 112, 147, 0.829);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-modal--volumen:checked ~ .container-modal--volumen{
+    display: flex;
+}
+.content-modal--volumen{
+    width: 100%;
+    max-width: 400px;
+    max-height: 90%;
+    overflow: scroll;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-modal--volumen h2{
+    margin-bottom: 15px;
+}
+.content-modal--volumen p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-modal--volumen .btn-cerrar--volumen{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.content-modal--volumen .btn-cerrar--volumen label{
+    padding: 7px 10px;
+    background-color: palevioletred;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 1.5rem;
+}
+.content-modal--volumen .btn-cerrar--volumen label:hover{
+    background-color:rgb(161, 84, 110);
+}
+.cerrar-modal--volumen{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top:0; left: 0;
+    z-index: -1;
+}
+@media screen and (max-width:800px) {
+    .content-modal--volumen{
+        width: 90%;
+    }
+}
+/*:::Fin Ventana Modal:::*/
+
+
+
+/*- - - - - - B O T O N   M O D A L   P E S T A Ñ  A S   - - - - - - */
+
+
+/*:::Boton-Modal:::*/
+.boton-modal--volumen{
+    padding: 40px;
+    background-color: #fff;
+}
+.boton-modal--volumen label{
+    padding: 10px 15px;
+    background-color: palevioletred;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 1.4rem;
+    justify-content: left;
+}
+.boton-modal--volumen label:hover{
+    background-color: rgb(161, 84, 110);
+}
+
+/*- - - - -  FIN  V E N  T A N A   M O D A L  P E S T A Ñ A  S - - - -  -*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*- - - - - V E N  T A N A   M O D A L  P E S T A Ñ A  S  L I F T I N G - - - -  -*/
+
+
+
+#btn-modal--lifting{
+    display: none;
+}
+.container-modal--lifting{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(216, 112, 147, 0.829);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-modal--lifting:checked ~ .container-modal--lifting{
+    display: flex;
+}
+.content-modal--lifting{
+    width: 100%;
+    max-width: 400px;
+    max-height: 90%;
+    overflow: scroll;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-modal--lifting h2{
+    margin-bottom: 15px;
+}
+.content-modal--lifting p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-modal--lifting .btn-cerrar--lifting{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.content-modal--lifting .btn-cerrar--lifting label{
+    padding: 7px 10px;
+    background-color: palevioletred;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 1.5rem;
+}
+.content-modal--lifting .btn-cerrar--lifting label:hover{
+    background-color:rgb(161, 84, 110);
+}
+.cerrar-modal--lifting{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top:0; left: 0;
+    z-index: -1;
+}
+@media screen and (max-width:800px) {
+    .content-modal--lifting{
+        width: 90%;
+    }
+}
+/*:::Fin Ventana Modal:::*/
+
+
+
+/*- - - - - - B O T O N   M O D A L   L I F T I N G    - - - - - - */
+
+
+/*:::Boton-Modal:::*/
+.boton-modal--lifting{
+    padding: 40px;
+    background-color: #fff;
+}
+.boton-modal--lifting label{
+    padding: 10px 15px;
+    background-color: palevioletred;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 1.4rem;
+    justify-content: left;
+}
+.boton-modal--lifting label:hover{
+    background-color: rgb(161, 84, 110);
+}
+
+/*- - - - -  FIN  V E N  T A N A   M O D A L  L I F T I N G   - - - -  -*/
+
+
+
+
 @media screen and (max-width:800px) {
     .content-modal--semipermanente{
         width: 90%;
@@ -539,3 +759,6 @@
 
 }
 /*:::Fin Ventana Modal:::*/
+
+
+
