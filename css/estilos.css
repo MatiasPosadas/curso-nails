@@ -553,13 +553,8 @@ main {
     gap: 1em;
     grid-auto-flow: row;
     height: 100%;
-}
+    justify-content: space-around;
 
-.nav__link--footer {
-    display: flex;
-    margin: 0;
-    margin-right: 20px;
-    flex-wrap: wrap;
 }
 
 .footer__copy {
@@ -592,18 +587,10 @@ main {
     justify-items: center;
 }
 .nav__link--footer {
-    width: 100%;
-    justify-content: space-evenly;
-    margin: 0;
+    width: auto;
+    display:flex;
+    justify-content: center;
 }
-.footer__form {
-    width: 100%;
-    justify-content: space-evenly;
-}
-.footer__input {
-    flex: 1;
-}
-
 /*- - - - M e r i a   Q u e r i e s - - - - */
 
 @media (max-width:800px) {
@@ -751,9 +738,6 @@ main {
     }
     .nav--footer {
         padding-bottom: 60px;
-    }
-    .nav__link--footer {
-        justify-content: space-around;
     }
     .footer__container {
         margin-bottom: 0;
