@@ -582,28 +582,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*- - - - - V E N  T A N A   M O D A L  P E S T A Ñ A  S  L I F T I N G - - - -  -*/
 
 
@@ -752,7 +730,7 @@
         width: 90%;
         text-align: start;
     }
-    .container-modal--lif.content-modal--lifting {
+    .container-modal--lifting .content-modal--lifting {
         height: 100%;
     }
     .boton-modal--semipermanente label {
