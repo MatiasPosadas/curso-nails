@@ -731,7 +731,7 @@
         text-align: start;
     }
     .container-modal--lifting .content-modal--lifting {
-        height: 100%;
+        height: 100vh;
     }
     .boton-modal--semipermanente label {
         font-size: 2rem;
