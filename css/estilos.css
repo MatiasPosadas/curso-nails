@@ -789,6 +789,9 @@ main {
         html {
             width: 100%;
         }
+        .knowledge {
+            margin-bottom: 7rem;
+        }
         .knowledge__texts {
             width: 90%;
             padding: 0;
@@ -800,9 +803,7 @@ main {
             /* margin-left: 5rem; */
         }
         .subtitle-testimony {
-            
             width: 15rem;
-        }
         }
         .subtitle--testimony {
             width: auto;

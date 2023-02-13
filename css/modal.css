@@ -1,6 +1,7 @@
 /*:::Boton-Modal:::*/
 .boton-modal{
-    padding: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     background-color: #fff;
 }
 .boton-modal label{
@@ -91,7 +92,8 @@
 
 /*:::Boton-Modal:::*/
 .boton-modal--polygel{
-    padding: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     background-color: #fff;
 }
 .boton-modal--polygel label{
@@ -194,7 +196,8 @@
 
 /*:::Boton-Modal:::*/
 .boton-modal--acrilicas{
-    padding: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     background-color: #fff;
 }
 .boton-modal--acrilicas label{
@@ -297,7 +300,8 @@
 
 /*:::Boton-Modal:::*/
 .boton-modal--pestanas{
-    padding: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     background-color: #fff;
 }
 .boton-modal--pestanas label{
@@ -397,7 +401,8 @@
 
 /*:::Boton-Modal:::*/
 .boton-modal--semipermanente{
-    padding: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     background-color: #fff;
 }
 .boton-modal--semipermanente label{
@@ -561,7 +566,8 @@
 
 /*:::Boton-Modal:::*/
 .boton-modal--volumen{
-    padding: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     background-color: #fff;
 }
 .boton-modal--volumen label{
@@ -659,7 +665,8 @@
 
 /*:::Boton-Modal:::*/
 .boton-modal--lifting{
-    padding: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     background-color: #fff;
 }
 .boton-modal--lifting label{
@@ -677,6 +684,7 @@
 }
 
 /*- - - - -  FIN  V E N  T A N A   M O D A L  L I F T I N G   - - - -  -*/
+
 
 
 
