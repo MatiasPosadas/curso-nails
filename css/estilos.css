@@ -334,6 +334,7 @@ main {
 
 .testimony {
     /* background-color: #02027a; */
+    justify-content: center;
 }
 
 .testimony__container {
@@ -396,8 +397,8 @@ main {
 .subtitle--testimony {
     display: flex;
     justify-content: center;
-    width: 30rem;
-    margin-left: calc(50% - 15rem);
+    width: auto;
+    margin: 0 auto;
 }
 .cta--testimony {
     display: flex;
@@ -484,8 +485,8 @@ main {
 
 .go-top-container {
     position: fixed;
-    bottom: 1rem;
-    right: 3rem;
+    bottom: -4rem;
+    right: -4rem;
     width: 6.6rem;
     height: 6.6rem;
     z-index: -1;
@@ -566,7 +567,7 @@ main {
     margin-bottom: 30px;
 }
 
-.footer__title, .footer__newsletter {
+.footer__title{
     color: #fff;
 }
 
@@ -585,7 +586,6 @@ main {
     grid-auto-flow: row;
     height: 100%;
     justify-content: space-around;
-
 }
 
 .footer__copy {
@@ -757,14 +757,21 @@ main {
     }
     .nav--footer {
         padding: 0;
-        margin-bottom: 40px;
     }
     .footer__title {
         justify-self: center;
         margin-bottom: 15px;
+        width: min-content;
     }
     .nav--footer {
         padding-bottom: 60px;
+    }
+    .nav__link--footer {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .nav__items {
+        margin: 0 auto;
     }
     .footer__container {
         margin-bottom: 0;
@@ -777,7 +784,7 @@ main {
 }
 
 
-    /* - - - - - M E D I A  3 0 0 P X - - - - -*/
+    /* - - - - - M E D I A  4 0 0 P X - - - - -*/
     @media (max-width:400px) {
         html {
             width: 100%;
@@ -790,11 +797,16 @@ main {
             padding: 0rem;
         }
         .subtitle {
-            align-items: center;
-            justify-content: center;
+            /* margin-left: 5rem; */
         }
-        .go-top-container {
-            right: 0rem;
+        .subtitle-testimony {
+            
+            width: 15rem;
+        }
+        }
+        .subtitle--testimony {
+            width: auto;
+            margin: 0 auto;
         }
         .show .go-top-button {
             width: 3.5rem;
@@ -803,6 +815,9 @@ main {
         }
         .nav__title {
             display: none;
+        }
+        .price__element {
+            padding: 20px;
         }
     }
 
@@ -820,6 +835,9 @@ main {
         }
         .about__icons {
             margin: 0;
+        }
+        .go-top-container {
+            left: 1;
         }
         .container {
             margin: 0 auto;
@@ -841,9 +859,6 @@ main {
         .subtitle {
             align-items: center;
             justify-content: center;
-        }
-        .go-top-container {
-            right: 2rem;
         }
         .show .go-top-button {
             width: 3.5rem;
