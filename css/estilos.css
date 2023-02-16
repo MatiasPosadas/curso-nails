@@ -662,7 +662,7 @@ main {
     .nav__img {
         width: 4rem;
         height: 4rem;
-        margin-right: 1rem;
+        margin-right: 0rem;
     }
     .nav__title {
         font-size: 2rem;
