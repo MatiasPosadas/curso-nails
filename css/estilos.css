@@ -162,6 +162,7 @@ main {
     color: rgb(150, 76, 150);
     color: palevioletred;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .about__parahraph {
