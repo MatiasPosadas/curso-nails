@@ -730,7 +730,7 @@ main {
         font-size: 1rem;
     }
     .hero::before {
-        background-position: center 50%;
+        background-position: center center;
     }
     .subtitle {
         font-size: 1.8rem;
@@ -789,7 +789,7 @@ main {
         grid-template-columns: 50px 1fr 50px;
     }
     html {
-        background-color: red;
+        background-color: rgb(217, 255, 0);
     }
 }
 
