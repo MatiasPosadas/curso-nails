@@ -346,7 +346,7 @@ main {
     gap: 1em;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
 }
 
@@ -381,9 +381,6 @@ main {
     justify-content: center;
     align-items: center;
 }
-.testimony__texts {
-    /* max-width: 700px; */
-}
 
 .testimony__course {
     background-color: palevioletred;
@@ -404,13 +401,18 @@ main {
     width: auto;
     margin: 0 auto;
 }
+.cta-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .cta--testimony {
     display: flex;
     justify-content: center;
-    width: 20rem;
-    margin-left: calc(50% - 10rem);
+    align-items: center;
+    text-align: center;
 }
-
 /*- - - Q U E S T I O N S - - - */
 
 .questions {
@@ -568,11 +570,8 @@ main {
 .footer__title {
     font-weight: 300;
     font-size: 2rem; 
-    margin-bottom: 30px;
-}
-
-.footer__title{
     color: #fff;
+    margin-bottom: 30px;
 }
 
 .footer__container {
@@ -770,6 +769,7 @@ main {
         text-align: center;
         margin-bottom: 15px;
         width: min-content;
+        width: 80%;
     }
     .nav--footer {
         padding-bottom: 60px;
@@ -815,6 +815,7 @@ main {
         }
         .subtitle-testimony {
             width: 15rem;
+            text-align: center;
         }
         .subtitle--testimony {
             width: auto;
