@@ -46,10 +46,10 @@ body {
     height: 100%;
     background-image: linear-gradient(#e2a8a875 0%, #aa69697c 100%), url(../images/fondohero.jpg);
     /* background-image: url(../images/fondohero.jpg); */
-    background-position: center center;
-    background-position: center 70%;
-    background-repeat: no-repeat;
+    /* background-position: center center; */
     background-size: cover;
+    background-position: center 75%;
+    background-repeat: no-repeat;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
 }
@@ -730,7 +730,7 @@ main {
         font-size: 1rem;
     }
     .hero::before {
-        background-position: center center;
+        background-position: center 50%;
     }
     .subtitle {
         font-size: 1.8rem;
