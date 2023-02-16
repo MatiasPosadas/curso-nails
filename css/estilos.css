@@ -395,6 +395,7 @@ main {
 .testimony__arrow {
     width: 90%;
     cursor: pointer;
+    max-width: 200px;
 }
 
 .subtitle--testimony {
@@ -730,7 +731,7 @@ main {
         font-size: 1rem;
     }
     .hero::before {
-        background-position: center center;
+        background-position: center;
     }
     .subtitle {
         font-size: 1.8rem;
@@ -829,6 +830,7 @@ main {
         }
         .price__element {
             padding: 20px;
+            margin-bottom: 1rem;
         }
         html {
             background-color: rgb(197, 135, 19);
@@ -869,6 +871,10 @@ main {
         }
         .knowledge__container {
             padding: 0rem;
+        }
+        .price__element {
+            padding: 20px;
+            margin-bottom: 1rem;
         }
         .subtitle {
             align-items: center;
