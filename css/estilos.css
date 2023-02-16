@@ -763,6 +763,7 @@ main {
     }
     .footer__title {
         justify-self: center;
+        text-align: center;
         margin-bottom: 15px;
         width: min-content;
     }
