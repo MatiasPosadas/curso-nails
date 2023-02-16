@@ -716,6 +716,9 @@ main {
         align-items: center;
         justify-content: center;
     }
+    html {
+        background-color: black;
+    }
 
 }
     /* - - - - - M E D I A  6 0 0 P X - - - - -*/
@@ -785,6 +788,9 @@ main {
     .testimony__container {
         grid-template-columns: 50px 1fr 50px;
     }
+    html {
+        background-color: red;
+    }
 }
 
 
@@ -823,6 +829,9 @@ main {
         }
         .price__element {
             padding: 20px;
+        }
+        html {
+            background-color: rgb(197, 135, 19);
         }
     }
 
@@ -877,5 +886,8 @@ main {
             margin: 0 auto;
             font-size: 1.5rem;
             margin-right: 1rem;
+        }
+        html {
+            background-color: blueviolet;
         }
     }
