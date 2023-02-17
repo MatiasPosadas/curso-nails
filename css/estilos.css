@@ -48,7 +48,7 @@ body {
     /* background-image: url(../images/fondohero.jpg); */
     /* background-position: center center; */
     background-size: cover;
-    background-position: center 75%;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
@@ -140,6 +140,9 @@ body {
     padding: 13px 30px;
     border-radius: 32px;
     cursor: pointer;
+}
+#comienzaahora {
+    background-color: rgba(216, 112, 147, 0.705);
 }
 
 main {
@@ -734,9 +737,9 @@ main {
     .hero__paragraph {
         font-size: 1rem;
     }
-    .hero::before {
+    /* .hero::before {
         background-position: center;
-    }
+    } */
     .subtitle {
         font-size: 1.8rem;
     }
@@ -752,10 +755,6 @@ main {
     }
     .testimony {
         --pading-container: 60px 0;
-    }
-    .testimony__container {
-        grid-template-columns: 28px 1fr 28px;
-        gap: .9em;
     }
     .testimony__arrow {
         width: 100%;
@@ -793,9 +792,11 @@ main {
     }
     .testimony__container {
         grid-template-columns: 50px 1fr 50px;
+        padding-top: 0;
+        gap: .9em;
     }
     html {
-        background-color: rgb(217, 255, 0);
+        background-color: rgb(180, 41, 157);
     }
 }
 

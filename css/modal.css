@@ -247,6 +247,7 @@
     background-color: #fff;
     border-radius: 4px;
     overflow:scroll;
+    overflow-y: 0;
 
 }
 .content-modal--acrilicas h2{
