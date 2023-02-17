@@ -632,6 +632,7 @@ main {
     width: auto;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 /*- - - - M e r i a   Q u e r i e s - - - - */
 
@@ -784,6 +785,7 @@ main {
     }
     .nav__items {
         margin: 0 auto;
+        text-align: center;
     }
     .footer__container {
         margin-bottom: 0;
