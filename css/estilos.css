@@ -267,7 +267,7 @@ main {
     background: linear-gradient(3deg, rgba(255,157,190,1) 0%, rgba(185,66,178,1) 100%);
     text-align: center;
     border-radius: 10px;
-    width: 300;
+    /* width: 700; */
     padding: 40px;
     --color-plan: #000000;
     --color-price: #fff;
@@ -288,12 +288,14 @@ main {
 .price__element--best {
     width: 370px;
     padding: 60px 40px;
-    background-color: palevioletred;
+    /* background-color: palevioletred; */
     --color-plan: rgba(0, 0, 0, 0.75);
     --color-price: #fff;
     --bg-cta: #ffffffd5;
     --color-cta: palevioletred;
     --color-items: #FFF;
+    background: rgb(255,255,255);
+background: linear-gradient(3deg, rgba(255,255,255,1) 0%, rgba(218,112,148,1) 100%);
 }
 .price__name {
     color: var(--color-plan);
@@ -745,12 +747,12 @@ main {
         font-size: 1.8rem;
     }
     .price__element {
-        width: 90%;
+        /* width: 90%; */
     }
-    .price__element--best {
+    /* .price__element--best {
         width: 90%;
         padding: 40px;
-    }
+    } */
     .plan__price {
         font-size: 2rem;
     }
@@ -887,7 +889,14 @@ main {
         }
         .price__element {
             padding: 20px;
+            margin: 0 auto;
             margin-bottom: 1rem;
+            width: 240px;
+        }
+        .price__table {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .subtitle {
             align-items: center;
