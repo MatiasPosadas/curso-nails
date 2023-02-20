@@ -637,6 +637,9 @@ main {
     .hero__title {
         font-size: 2rem;
     }
+    .about__icons {
+        width: 90%;
+    }
     .subtitle {
         font-size: 1.8rem;
     }
