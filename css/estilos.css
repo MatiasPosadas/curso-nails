@@ -267,8 +267,7 @@ main {
     background: linear-gradient(3deg, rgba(255,157,190,1) 0%, rgba(185,66,178,1) 100%);
     text-align: center;
     border-radius: 10px;
-    /* width: 700; */
-    padding: 40px;
+    padding: 25px;
     --color-plan: #000000;
     --color-price: #fff;
     --bg-cta: #fff;
@@ -285,10 +284,10 @@ main {
 .price__element--cocolor {
     background-color: violet;
 }
-.price__element--best {
+/* .price__element--best {
     width: 370px;
     padding: 60px 40px;
-    /* background-color: palevioletred; */
+    background-color: palevioletred;
     --color-plan: rgba(0, 0, 0, 0.75);
     --color-price: #fff;
     --bg-cta: #ffffffd5;
@@ -296,7 +295,7 @@ main {
     --color-items: #FFF;
     background: rgb(255,255,255);
 background: linear-gradient(3deg, rgba(255,255,255,1) 0%, rgba(218,112,148,1) 100%);
-}
+} */
 .price__name {
     color: var(--color-plan);
     margin-bottom: 15px;
@@ -666,7 +665,7 @@ background: linear-gradient(3deg, rgba(255,255,255,1) 0%, rgba(218,112,148,1) 10
     .nav__close {
         position: absolute;
         top: 30px;
-        right: 70px;
+        right: 2px;
         width: 4rem;
         cursor: pointer;
     }
@@ -692,6 +691,7 @@ background: linear-gradient(3deg, rgba(255,255,255,1) 0%, rgba(218,112,148,1) 10
         gap: 3em;
         text-align: center;
         margin: 0 auto;
+        padding: 1rem;
     }
     .knowledge__picture {
         grid-row: 1/2;
@@ -700,6 +700,9 @@ background: linear-gradient(3deg, rgba(255,255,255,1) 0%, rgba(218,112,148,1) 10
     }
     .knowledge__img {
         margin-left: 0px;
+    }
+    .price__element {
+        width: 90%;
     }
     .testimony__container {
         grid-template-columns: 50px 1fr 50px;
@@ -888,10 +891,10 @@ background: linear-gradient(3deg, rgba(255,255,255,1) 0%, rgba(218,112,148,1) 10
             padding: 0rem;
         }
         .price__element {
-            padding: 20px;
+            padding: 8px;
             margin: 0 auto;
             margin-bottom: 1rem;
-            width: 240px;
+            min-width: 2rem;
         }
         .price__table {
             display: flex;
@@ -914,6 +917,16 @@ background: linear-gradient(3deg, rgba(255,255,255,1) 0%, rgba(218,112,148,1) 10
             margin: 0 auto;
             font-size: 1.5rem;
             margin-right: 1rem;
+        }
+        .testimony__container {
+            grid-template-columns: 20% 60% 20%;
+            padding-top: 0;
+            gap: .2em;
+        }
+        .testimony__review {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
         }
         html {
             background-color: rgb(196, 164, 226);
