@@ -665,9 +665,6 @@ main {
         width: min-content;
         width: 80%;
     }
-    .nav--footer {
-        padding-bottom: 60px;
-    }
     .nav__link--footer {
         flex-direction: column;
         margin: 0 auto;
