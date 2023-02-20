@@ -631,10 +631,6 @@ main {
         align-items: center;
         justify-content: center;
     }
-    html {
-        background-color: black;
-    }
-
 }
     /* - - - - - M E D I A  6 0 0 P X - - - - -*/
 @media (max-width:600px) {
@@ -690,9 +686,6 @@ main {
         padding-top: 0;
         gap: .9em;
     }
-    html {
-        background-color: rgb(180, 41, 157);
-    }
 }
 
 
@@ -730,9 +723,6 @@ main {
         .price__element {
             padding: 20px;
             margin-bottom: 1rem;
-        }
-        html {
-            background-color: rgb(197, 135, 19);
         }
     }
 
@@ -811,8 +801,5 @@ main {
             width: 80%;
             margin: 0 auto;
             text-align: center;
-        }
-        html {
-            background-color: rgb(196, 164, 226);
         }
     }
