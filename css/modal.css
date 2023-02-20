@@ -110,13 +110,7 @@
     background-color: rgb(161, 84, 110);
 }
 
-
-
 /*- - - - - V E N  T A N A   M O D A L   P O L Y G E L - - - -  -*/
-
-
-
-
 
 #btn-modal--polygel{
     display: none;
@@ -184,15 +178,7 @@
 }
 /*:::Fin Ventana Modal:::*/
 
-
-
-
-
-
-
-
 /*- - - - - - B O T O N   M O D A L   A C R I L I C A  S   - - - - - - */
-
 
 /*:::Boton-Modal:::*/
 .boton-modal--acrilicas{
@@ -214,13 +200,7 @@
     background-color: rgb(161, 84, 110);
 }
 
-
-
 /*- - - - - V E N  T A N A   M O D A L   A C R I L I C A S - - - -  -*/
-
-
-
-
 
 #btn-modal--acrilicas{
     display: none;
@@ -290,14 +270,7 @@
 }
 /*:::Fin Ventana Modal:::*/
 
-
-
-
-
-
-
 /*- - - - - - B O T O N   M O D A L   P E S T A Ñ  A S   - - - - - - */
-
 
 /*:::Boton-Modal:::*/
 .boton-modal--pestanas{
@@ -319,15 +292,7 @@
     background-color: rgb(161, 84, 110);
 }
 
-
-
-
-
-
-
 /*- - - - - V E N  T A N A   M O D A L  P E S T A Ñ A  S - - - -  -*/
-
-
 
 #btn-modal--pestanas{
     display: none;
@@ -395,10 +360,7 @@
 }
 /*:::Fin Ventana Modal:::*/
 
-
-
 /*- - - - - - B O T O N   M O D A L   P E S T A Ñ  A S   - - - - - - */
-
 
 /*:::Boton-Modal:::*/
 .boton-modal--semipermanente{
@@ -420,15 +382,7 @@
     background-color: rgb(161, 84, 110);
 }
 
-
-
-
-
-
-
 /*- - - - - V E N  T A N A   M O D A L  P E S T A Ñ A  S - - - -  -*/
-
-
 
 #btn-modal--semipermanente{
     display: none;
@@ -491,8 +445,6 @@
 }
 
 /*- - - - - V E N  T A N A   M O D A L  P E S T A Ñ A  S  VOLUMEN - - - -  -*/
-
-
 
 #btn-modal--volumen{
     display: none;
@@ -560,10 +512,7 @@
 }
 /*:::Fin Ventana Modal:::*/
 
-
-
 /*- - - - - - B O T O N   M O D A L   P E S T A Ñ  A S   - - - - - - */
-
 
 /*:::Boton-Modal:::*/
 .boton-modal--volumen{
@@ -588,10 +537,7 @@
 /*- - - - -  FIN  V E N  T A N A   M O D A L  P E S T A Ñ A  S - - - -  -*/
 
 
-
 /*- - - - - V E N  T A N A   M O D A L  P E S T A Ñ A  S  L I F T I N G - - - -  -*/
-
-
 
 #btn-modal--lifting{
     display: none;
@@ -659,10 +605,7 @@
 }
 /*:::Fin Ventana Modal:::*/
 
-
-
 /*- - - - - - B O T O N   M O D A L   L I F T I N G    - - - - - - */
-
 
 /*:::Boton-Modal:::*/
 .boton-modal--lifting{
@@ -687,18 +630,13 @@
 /*- - - - -  FIN  V E N  T A N A   M O D A L  L I F T I N G   - - - -  -*/
 
 
-
-
-
 @media screen and (max-width:800px) {
     .content-modal--semipermanente{
         width: 90%;
         text-align: start;
-        /* justify-content: start; */
     }
     .container-modal--semipermanente {
         height: 100%;
-        /* background-color: rgb(182, 111, 111); */
     }
     .content-modal--acrilicas{
         width: 90%;
