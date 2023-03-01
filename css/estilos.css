@@ -326,6 +326,11 @@ main {
 .testimony {
     /* background-color: #02027a; */
     justify-content: center;
+    background-image: url(../images/backgroundopiniones.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
 }
 .testimony__container {
     display: grid;
@@ -340,13 +345,18 @@ main {
     grid-template-columns: 1fr max-content;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 2rem;
     gap: 2em;
     grid-column: 2/3;
     grid-row: 1/2;
     opacity: 0 ;
     pointer-events: none;
 }
-
+.testimony__review {
+    text-align: center;
+}
 .testimony__body--show {
     pointer-events: unset;
     opacity: 1;
