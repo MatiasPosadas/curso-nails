@@ -33,6 +33,7 @@
     padding: 20px;
     background-color: #fff;
     border-radius: 4px;
+    text-transform: uppercase;
     position: relative;
     overflow: scroll;
 }
