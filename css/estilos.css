@@ -180,16 +180,13 @@ main {
     background-color: #fff;
     background-size: 20px 20px;
     background-position: 0 0,10px 10px;
-    /* margin: 0 auto; */
     overflow: hidden;
-    /* background-color: royalblue; */
 }
 .knowledge__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     align-items: center;
-    /* padding: 4rem; */
     padding: 2.4rem 0;
     place-content: center;
 }
@@ -327,7 +324,6 @@ main {
 /*- - - - - T E S T I M O N Y - - - - -*/
 
 .testimony {
-    /* background-color: #02027a; */
     justify-content: center;
     background-image: url(../images/backgroundopiniones.jpg);
     background-repeat: no-repeat;
@@ -342,7 +338,6 @@ main {
     gap: 1em;
     align-items: center;
     justify-content: center;
-    /* margin: 0 auto; */
 }
 .testimony__body {
     display: grid;
@@ -553,7 +548,6 @@ main {
 .show {
     z-index: 10;
     margin: 0;
-    /* right: 0; */
 }
 .go-top-container .show {
     margin: 2rem;
