@@ -4,7 +4,7 @@
     margin-bottom: 2rem;
     background-color: #fff;
 }
-.boton-modal label{
+/* .boton-modal label{
     padding: 10px 15px;
     background-color: palevioletred;
     color: #fff;
@@ -13,7 +13,7 @@
     transition: all 300ms ease;
     font-size: 1.4rem;
 
-}
+} */
 .boton-modal label:hover{
     background-color: rgb(161, 84, 110);
 }
@@ -38,12 +38,14 @@
     display: flex;
 }
 .content-modal{
-    width: 60%;
+    width: 90%;
     /* max-width: 400px; */
-    max-height: 90%;
+    /* height: 95%; */
+    max-height: 95%;
     padding: 20px;
     background-color: #fff;
     border-radius: 4px;
+    position: relative;
     overflow: scroll;
 }
 .content-modal h2{
@@ -57,10 +59,10 @@
 .content-modal .btn-cerrar{
     width: 100%;
     margin-top: 15px;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
 }
-.content-modal .btn-cerrar label{
+/* .content-modal .btn-cerrar label{
     padding: 7px 10px;
     background-color: palevioletred;
     color: #fff;
@@ -68,7 +70,7 @@
     cursor: pointer;
     transition: all 300ms ease;
     font-size: 1.5rem;
-}
+} */
 .content-modal .btn-cerrar label:hover{
     background-color:rgb(161, 84, 110);
 }
@@ -145,19 +147,11 @@
 }
 .content-modal--polygel .btn-cerrar--polygel{
     width: 100%;
-    margin-top: 15px;
+    /* margin-top: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
 }
-.content-modal--polygel .btn-cerrar--polygel label{
-    padding: 7px 10px;
-    background-color: palevioletred;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 300ms ease;
-    font-size: 1.5rem;
-}
+
 .content-modal--polygel .btn-cerrar--polygel label:hover{
     background-color:rgb(161, 84, 110);
 }
@@ -221,7 +215,7 @@
     height: 100vh;
     position: fixed;
     top: 0; left: 0;
-    background-color: rgba(46, 9, 114, 0.829);
+    background-color: rgba(216, 112, 147, 0.884);
     display: none;
     justify-content: center;
     align-items: center;
@@ -241,13 +235,24 @@
 }
 .content-modal--acrilicas .btn-cerrar--acrilicas{
     width: 100%;
-    margin-top: 15px;
+    /* margin-top: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
 }
-.content-modal--acrilicas .btn-cerrar--acrilicas label{
+.btn-cerrar {
+    position: fixed;
+    /* bottom: 5rem; */
+    left: calc(50% - 48.25px);
+    top: calc(100% - 55px);
+    /* bottom: -19rem; */
+    /* font-weight: bold; */
+    /* border-radius: 100%; */
+    /* margin: 0; */
+}
+.content-modal .btn-cerrar label{
     padding: 7px 10px;
-    background-color: palevioletred;
+    background-color: rgb(255, 0, 85);
+    border: 2px solid #fff;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
@@ -339,17 +344,8 @@
 .content-modal--pestanas .btn-cerrar--pestanas{
     width: 100%;
     margin-top: 15px;
-    display: flex;
-    justify-content: center;
-}
-.content-modal--pestanas .btn-cerrar--pestanas label{
-    padding: 7px 10px;
-    background-color: palevioletred;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 300ms ease;
-    font-size: 1.5rem;
+    /* display: flex;
+    justify-content: center; */
 }
 .content-modal--pestanas .btn-cerrar--pestanas label:hover{
     background-color:rgb(161, 84, 110);
@@ -430,19 +426,11 @@
 }
 .content-modal--semipermanente .btn-cerrar--semipermanente{
     width: 100%;
-    margin-top: 15px;
+    /* margin-top: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
 }
-.content-modal--semipermanente .btn-cerrar--semipermanente label{
-    padding: 7px 10px;
-    background-color: palevioletred;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 300ms ease;
-    font-size: 1.5rem;
-}
+
 .content-modal--semipermanente .btn-cerrar--semipermanente label:hover{
     background-color:rgb(161, 84, 110);
 }
@@ -486,17 +474,8 @@
 .content-modal--volumen .btn-cerrar--volumen{
     width: 100%;
     margin-top: 15px;
-    display: flex;
-    justify-content: center;
-}
-.content-modal--volumen .btn-cerrar--volumen label{
-    padding: 7px 10px;
-    background-color: palevioletred;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 300ms ease;
-    font-size: 1.5rem;
+    /* display: flex;
+    justify-content: center; */
 }
 .content-modal--volumen .btn-cerrar--volumen label:hover{
     background-color:rgb(161, 84, 110);
@@ -577,18 +556,10 @@
 .content-modal--lifting .btn-cerrar--lifting{
     width: 100%;
     margin-top: 15px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
-.content-modal--lifting .btn-cerrar--lifting label{
-    padding: 7px 10px;
-    background-color: palevioletred;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 300ms ease;
-    font-size: 1.5rem;
-}
+
 .content-modal--lifting .btn-cerrar--lifting label:hover{
     background-color:rgb(161, 84, 110);
 }
@@ -707,18 +678,9 @@
 }
 .content-modal--softgel .btn-cerrar--softgel{
     width: 100%;
-    margin-top: 15px;
+    /* margin-top: 15px;
     display: flex;
-    justify-content: center;
-}
-.content-modal--softgel .btn-cerrar--softgel label{
-    padding: 7px 10px;
-    background-color: palevioletred;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 300ms ease;
-    font-size: 1.5rem;
+    justify-content: center; */
 }
 .content-modal--softgel .btn-cerrar--softgel label:hover{
     background-color:rgb(161, 84, 110);
@@ -843,3 +805,11 @@
 
 
 
+.btn-cerrar {
+    position: fixed;
+    bottom: 2rem;
+    left: calc(50% - 48.25px);
+    /* font-weight: bold; */
+    /* border-radius: 100%; */
+    /* margin: 0; */
+}
