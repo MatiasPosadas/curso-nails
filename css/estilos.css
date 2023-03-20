@@ -468,9 +468,10 @@ box-shadow:  5px 5px 11px #b5b5b5,
     bottom: -1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    border-bottom: 2px solid rgba(216,112,147,0.5);
 }
 .price__cta:hover {
-    color: palevioletred;
+    color: rgb(216, 112, 147);
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
@@ -631,6 +632,7 @@ box-shadow:  5px 5px 11px #b5b5b5,
     width: 100%;
     height: auto;
     padding-top: 5rem;
+    margin-bottom: 5rem;
 }
 .nuestras__redes .redes {
     width: auto;
