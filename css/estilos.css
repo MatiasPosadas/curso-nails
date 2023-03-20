@@ -174,29 +174,63 @@ main {
     width: 5rem;
 }
 
+/*---KNOWLEDGE BOX*/
+.knowledge__box {
+    width: 95%;
+    height: auto;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(260px, 1fr) );
+    grid-template-rows: auto;
+    place-items: center;
+    /* gap: 1rem; */
+    gap: 1.5rem;
+    margin: 0 auto;
+    padding-bottom: 1.5rem;
+    margin-bottom: 5rem;
+}
 /*- - - - K N O W L E D G E - - - - - */
 
 .knowledge {
+    width: 100%;
+    min-width: 260px;
+    height: 600px;
     background-color: #fff;
     background-size: 20px 20px;
     background-position: 0 0,10px 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
+    border-radius: 1rem;
+    position: relative;
+    margin-top: 1.5rem;
+    border-radius: 50px;
+background: #fff;
+box-shadow:  5px 5px 11px #b5b5b5,
+             -5px -5px 11px #ffffff;
 }
 .knowledge__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    width: 100%;
+    height: 100%;
+    /* display: grid;
+    grid-template-columns: 1fr ;
+    gap: 1em; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 2.4rem 0;
-    place-content: center;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    /* padding: 2.4rem 0; */
+    /* place-content: center; */
 }
 .knowledge__picture {
-    width: 100%;
-    height: 20rem;
-    margin: 0 0 0 auto;
+    width: 70%;
+    height: 10rem;
+    margin: 0 auto;
     overflow: hidden;
-    border-radius: 5rem;
+    border-radius: 1rem;
     background-color: red;
+    padding: 1rem;
+    margin-bottom: 2rem;
 }
 .knowledge__img {
     width: auto;
@@ -235,9 +269,24 @@ main {
 .knowledge__paragraph {
     line-height: 1.7;
     margin-bottom: 15px;
+    height: auto;
+    width: 92%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 0.5rem;
 }
 .knowledge__texts {
     margin: 0 auto;
+}
+.knowledge__box .knowledge .knowledge__texts .subtitle {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    /* margin: 0 auto; */
+}
+.boton-modal {
+    position: absolute;
+    bottom: -2rem;
 }
 
 /*- - - - - S L I D E R - - - -  -*/
@@ -336,22 +385,34 @@ main {
 /* - - - - P R I C E - - - - - */
 
 .price {
+    width: 100%;
+    height: auto;
     text-align: center;
 }
 .price__table {
+    width: 95%;
     padding-top: 60px;
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(330px, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(260px, 1fr) );
     grid-template-rows: auto;
-    gap: 5rem;
+    gap: 2rem;
     place-items: center;
+    margin: 0 auto;
 }
 .price__element {
+    width: 100%;
+    min-width: 260px;
+    height: auto;
+    min-height: 500px;
     background: rgb(255,157,190);
     background: linear-gradient(3deg, rgba(255,157,190,1) 0%, rgba(185,66,178,1) 100%);
     text-align: center;
     border-radius: 10px;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     --color-plan: #000000;
     --color-price: #fff;
     --bg-cta: #fff;
@@ -374,11 +435,11 @@ main {
     font-weight: 300;
     text-transform: uppercase;
     font-size: 1.3rem;
-    background-color: rgba(255, 255, 255, 0.507);
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 0.6rem 1rem;
     border-radius: 0.5rem;
     font-weight: bold;
-    color: #ffffff;
+    color: #bc46b3;
 }
 .plan__price {
     font-size: 2.5rem;
@@ -399,10 +460,14 @@ main {
     border-radius: 10px;
     text-decoration: none;
     background-color: var(--bg-cta);
-    font-weight: 600;
+    font-weight: bold;
     text-transform: uppercase;
-    color: var(--color-cta);
+    color: palevioletred;
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    position: absolute;
+    bottom: -1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .price__cta:hover {
     color: palevioletred;
@@ -781,6 +846,9 @@ main {
     }
     .about__main {
         gap: 2em;
+    }
+    .knowledge {
+        width: 90%
     }
     .knowledge__container{
         grid-template-columns: 1fr;
