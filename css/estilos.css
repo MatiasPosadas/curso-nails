@@ -153,6 +153,7 @@ main {
 }
 .about__main {
     width: 90%;
+    max-width: 1400px;
     gap: 1.5rem;
     padding-top: 60px;
     display: grid;
@@ -177,6 +178,7 @@ main {
 /*---KNOWLEDGE BOX*/
 .knowledge__box {
     width: 95%;
+    max-width: 1400px;
     height: auto;
     /* background-color: red; */
     display: grid;
@@ -391,6 +393,7 @@ box-shadow:  5px 5px 11px #b5b5b5,
 }
 .price__table {
     width: 95%;
+    width: 1400px;
     padding-top: 60px;
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(260px, 1fr) );
