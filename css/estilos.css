@@ -175,6 +175,64 @@ main {
     width: 5rem;
 }
 
+/*-- - - - - - C E R T I F I C A D O - - - -*/
+
+#certificado {
+    height: auto;
+    width: 100%;
+    padding: 10rem 0;
+    /* background-color: palevioletred; */
+}
+#certificado .certificado__container {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: #001A49; */
+}
+#certificado .certificado__container .certificado__info {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    text-align: center;
+    /* background-color: red; */
+}
+#certificado .certificado__container .certificado__info .niveles {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+#certificado .certificado__container .certificado__info .niveles .nivel {
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: rgb(177, 16, 70);
+    border-radius: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+#certificado .certificado__container .certificado__info h2 {
+    color: palevioletred;
+    width: 100%;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+#certificado .certificado__container .certificado__info h3 {
+    margin-top: 2rem;
+}
+#certificado .certificado__container .certificado__img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#certificado .certificado__container .certificado__img img {
+    width: 60%;
+}
+
 /*---KNOWLEDGE BOX*/
 .knowledge__box {
     width: 95%;
