@@ -181,7 +181,6 @@ main {
     height: auto;
     width: 100%;
     padding: 10rem 0;
-    /* background-color: palevioletred; */
 }
 #certificado .certificado__container {
     width: 95%;
@@ -189,25 +188,41 @@ main {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* background-color: #001A49; */
+}
+#certificado .certificado__container .medalla {
+    width: 15rem;
+    height: auto;
+    position: absolute;
+    right: -10rem;
+    display: none;
+    /* bottom: -4rem;
+    left: 50%;
+    transform: translateX(-50%); */
+}
+#certificado .certificado__container .medalla img {
+    width: 100%;
+    height: auto;
 }
 #certificado .certificado__container .certificado__info {
     width: 100%;
     height: 100%;
     padding: 1rem;
     text-align: center;
-    /* background-color: red; */
+    position: relative;
+
 }
 #certificado .certificado__container .certificado__info .niveles {
     display: flex;
     align-items: center;
+    flex-direction: column;
     gap: 3rem;
 }
 #certificado .certificado__container .certificado__info .niveles .nivel {
+    width: 100%;
     margin: 0 auto;
-    margin-top: 2rem;
-    padding: 1rem 2rem;
-    background-color: rgb(177, 16, 70);
+    /* margin-top: 0.5rem; */
+    padding: 1rem;
+    background-color: palevioletred;
     border-radius: 2rem;
     font-weight: bold;
     color: white;
@@ -221,6 +236,7 @@ main {
 }
 #certificado .certificado__container .certificado__info h3 {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 #certificado .certificado__container .certificado__img {
     width: 100%;
@@ -231,6 +247,10 @@ main {
 }
 #certificado .certificado__container .certificado__img img {
     width: 60%;
+}
+.resaltado- {
+    font-weight: bold;
+    color: palevioletred;
 }
 
 /*---KNOWLEDGE BOX*/
@@ -451,7 +471,7 @@ box-shadow:  5px 5px 11px #b5b5b5,
 }
 .price__table {
     width: 95%;
-    width: 1400px;
+    max-width: 1400px;
     padding-top: 60px;
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(260px, 1fr) );
@@ -957,6 +977,13 @@ box-shadow:  5px 5px 11px #b5b5b5,
         align-items: center;
         justify-content: center;
     }
+#certificado .certificado__container {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+}
+#certificado .certificado__container .certificado__img img {
+    width: 50%;
+}
 }
     /* - - - - - M E D I A  6 0 0 P X - - - - -*/
 @media (max-width:600px) {
@@ -1066,11 +1093,26 @@ box-shadow:  5px 5px 11px #b5b5b5,
             padding: 20px;
             margin-bottom: 1rem;
         }
+        #certificado .certificado__container .certificado__info .niveles {
+            width: 90%;
+            flex-direction: column;
+            gap: 0rem;
+            margin: 0 auto;
+        }
+        #certificado .certificado__container .certificado__info h2 {
+            width: 90%;
+            font-size: 2rem;
+            margin: 0 auto;
+        }
+        #certificado .certificado__container .certificado__info h3 {
+            width: 90%;
+            margin: 0 auto;
+        }
     }
 
 
     /* - - - - - M E D I A  2 5 0 P X - - - - -*/
-    @media (max-width:400px) {
+    @media (max-width:250px) {
         html {
             width: 100%;
         }
@@ -1145,6 +1187,25 @@ box-shadow:  5px 5px 11px #b5b5b5,
             text-align: center;
         }
         .nuestras__redes .redes {
+            gap: 2rem;
+        }
+        #certificado .certificado__container .medalla {
+            display: none;
+        }
+        #certificado .certificado__container .certificado__info {
+            width: 90%;
+            padding: 1rem;
+            margin: 0 auto;
+        }
+        #certificado .certificado__container .certificado__info h2 {
+            font-size: 2rem;
+            text-align: center;
+            margin: 0 auto;
+        }
+        #certificado .certificado__container .certificado__img img {
+            width: 70%;
+        }
+        #certificado .certificado__container {
             gap: 2rem;
         }
     }
