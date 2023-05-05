@@ -1112,7 +1112,7 @@ box-shadow:  5px 5px 11px #b5b5b5,
 
 
     /* - - - - - M E D I A  2 5 0 P X - - - - -*/
-    @media (max-width:250px) {
+    @media (max-width:400px) {
         html {
             width: 100%;
         }
@@ -1201,6 +1201,10 @@ box-shadow:  5px 5px 11px #b5b5b5,
             font-size: 2rem;
             text-align: center;
             margin: 0 auto;
+            margin-bottom: 2rem;
+        }
+        #certificado .certificado__container .certificado__info h3 {
+            margin-bottom: 2rem;
         }
         #certificado .certificado__container .certificado__img img {
             width: 70%;
