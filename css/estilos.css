@@ -257,7 +257,7 @@ main {
 /*---KNOWLEDGE BOX*/
 .knowledge__box {
     width: 95%;
-    max-width: 1400px;
+    max-width: 1200px;
     height: auto;
     /* background-color: red; */
     display: grid;
@@ -291,17 +291,12 @@ box-shadow:  5px 5px 11px #b5b5b5,
 .knowledge__container {
     width: 100%;
     height: 100%;
-    /* display: grid;
-    grid-template-columns: 1fr ;
-    gap: 1em; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
-    /* padding: 2.4rem 0; */
-    /* place-content: center; */
 }
 .knowledge__picture {
     width: 70%;
@@ -328,8 +323,8 @@ box-shadow:  5px 5px 11px #b5b5b5,
 .peloxpelo {
     background: url(../images/knowledge-pestanas.jpg);
 }
-.softgel {
-    background: url(../images/knowledge-softgel.jpg);
+.decoracion {
+    background: url(../images/knowledge-decoracione.jpg);
 }
 .semipermanente {
     background: url(../images/knowledge-semipermanente.jpg);
@@ -340,7 +335,7 @@ box-shadow:  5px 5px 11px #b5b5b5,
 .lifting {
     background: url(../images/knowledge-lifting.jpg);
 }
-.lifting, .volumenruso, .peloxpelo, .semipermanente, .softgel, .peloxpelo, .polygel, .acrilicas {
+.lifting, .volumenruso, .peloxpelo, .semipermanente, .softgel, .peloxpelo, .polygel, .acrilicas, .decoracion {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -504,6 +499,24 @@ box-shadow:  5px 5px 11px #b5b5b5,
     box-shadow: -1px 8px 17px 2px rgba(166,163,163,0.89);
 -webkit-box-shadow: -1px 8px 17px 2px rgba(166,163,163,0.89);
 -moz-box-shadow: -1px 8px 17px 2px rgba(166,163,163,0.89);
+
+}
+.pestañas {
+    background: rgb(255,112,244);
+background: linear-gradient(90deg, rgba(255,112,244,1) 0%, rgba(3,212,205,1) 100%);
+}
+.integral{
+    background-image: radial-gradient(circle at 76.18% 4.65%, #ffe05b 0, #ffcf49 16.67%, #f8b630 33.33%, #ea9800 50%, #dc7900 66.67%, #d35e00 83.33%, #d04700 100%);
+    /* border: 2px solid rgba(165, 42, 42, 0.329); */
+    
+}
+.integral .price__name{
+    color: rgb(109, 36, 36);
+    
+;
+}
+.integral .price__cta {
+    color: rgb(109, 36, 36);
 }
 .price__element--color {
     background-color: rgb(218, 173, 214);
